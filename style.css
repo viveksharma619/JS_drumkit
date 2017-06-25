@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
+  background: #000;
+  background: linear-gradient(to bottom right ,#000 , #3f3f3f ); 
+  background: -webkit-linear-gradient(to bottom right ,#000, #3f3f3f );
 }
 body,html {
   margin: 0;
@@ -9,10 +13,17 @@ body,html {
   font-family: sans-serif;
 }
 
+h1{
+  font-family: 'Courgette', cursive;
+  font-size: 12em;
+  color: #ffc600;
+  text-align: center;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 55vh;
   align-items: center;
   justify-content: center;
 }
